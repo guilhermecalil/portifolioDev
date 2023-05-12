@@ -1,0 +1,26 @@
+@import url("../styles/header.css");
+@import url("../styles/banner.css");
+@import url("../styles/experiencia.css");
+@import url("../styles/projetos.css");
+@import url("../styles/contato.css");
+@import url("../styles/rodape.css");
+
+:root {
+  --primary: #2563eb;
+  --secondary: #111827;
+  --white: #eff2f5;
+  --white-titulo: #f7f3f3;
+  --black: #060504;
+  --cinza: #abadb2;
+  --sombra: #172135;
+  --cinza-second: #6b7280;
+  --fonte-principal: "Source Sans Pro", sans-serif;
+  --fonte-secundaria: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: var(--secondary);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+}

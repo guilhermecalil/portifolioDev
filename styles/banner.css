@@ -1,0 +1,35 @@
+.banner {
+  margin: 4em 1.5em;
+}
+
+.banner__titulo {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--white-titulo);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.banner__texto {
+  font-family: var(--fonte-secundaria);
+  color: var(--cinza);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: justify;
+}
+
+.banner__lista-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.banner__lista-link {
+  color: var(--white-titulo);
+  background: var(--sombra);
+  padding: 0.5em;
+  border-radius: 3px;
+}
